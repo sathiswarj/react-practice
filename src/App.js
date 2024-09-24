@@ -5,7 +5,7 @@ import ClassForms from './Components/Class/ClassForms';
 import ClassUser from './Components/Class/ClassUser';
 import MemoHook from './Components/Function/Memo';
 import Callback from './Components/Function/Callback';
-import CountReducer from './Components/Function/CountReducer';
+import Reducer from './Components/Function/Reducer';
 import HigherOrder from './Components/HigherOrder';
 import Ref from './Components/Function/Ref';
 
@@ -22,7 +22,7 @@ function App() {
             <Route path='/memo' element={<MemoHook />} /> {/* Renders MemoHook at /memo */}
             <Route path='/user' element={<ClassUser />} /> {/* Renders ClassUser at /user */}
             <Route path='/callback' element={<Callback />} /> {/* Renders Callback at /callback */}
-            <Route path='/countreducer' element={<CountReducer />} /> {/* Renders CountReducer at /countreducer */}
+            <Route path='/reducer' element={<Reducer />} /> {/* Renders CountReducer at /countreducer */}
             <Route path='/higherorder' element={<HigherOrder />} /> {/* Renders HigherOrder at /higherorder */}
             <Route path='/ref' element={<Ref />} /> {/* Renders Ref at /ref */}
           </Routes>

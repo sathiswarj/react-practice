@@ -14,8 +14,11 @@ import React from 'react';
 };
  
 const Message = () => {
-  return <p>Profile</p>;
-};
+  return (
+  <><h1>Profile</h1>
+  <p>User was successfully logined!!</p>
+  </>
+)};
 
  
 export default HigherOrder(Message);
