@@ -6,9 +6,9 @@ import ClassUser from './Components/Class/ClassUser';
 import MemoHook from './Components/Function/Memo';
 import Callback from './Components/Function/Callback';
 import Reducer from './Components/Function/Reducer';
-import HigherOrder from './Components/HigherOrder';
+import HigherOrder from './Components/Higher order/HigherOrder';
 import Ref from './Components/Function/Ref';
-
+ 
 function App() {
   return (
     <>
@@ -25,6 +25,7 @@ function App() {
             <Route path='/reducer' element={<Reducer />} /> {/* Renders CountReducer at /countreducer */}
             <Route path='/higherorder' element={<HigherOrder />} /> {/* Renders HigherOrder at /higherorder */}
             <Route path='/ref' element={<Ref />} /> {/* Renders Ref at /ref */}
+ 
           </Routes>
         </BrowserRouter>
       </UserProvider>
