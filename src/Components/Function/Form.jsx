@@ -72,7 +72,7 @@ const Form = () => {
                         </div>
                     ))
                 ) : (
-                    <p>No users found</p>
+                    <p style={{color:"red"}}>No users found</p>
                 )}
             </div>
         </div>

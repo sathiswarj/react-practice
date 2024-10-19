@@ -1,3 +1,4 @@
+import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Form from './Components/Function/Form';
 import { UserProvider } from './Components/Function/Context';
@@ -8,7 +9,11 @@ import Callback from './Components/Function/Callback';
 import Reducer from './Components/Function/Reducer';
 import HigherOrder from './Components/Higher order/HigherOrder';
 import Ref from './Components/Function/Ref';
- 
+// import About from './Components/Function/About';
+import Slide from './Components/Slide/slide';
+
+const LazyAbout = React.lazy(() => import('./Components/Function/About'));
+
 function App() {
   return (
     <>
@@ -22,10 +27,20 @@ function App() {
             <Route path='/memo' element={<MemoHook />} /> {/* Renders MemoHook at /memo */}
             <Route path='/user' element={<ClassUser />} /> {/* Renders ClassUser at /user */}
             <Route path='/callback' element={<Callback />} /> {/* Renders Callback at /callback */}
-            <Route path='/reducer' element={<Reducer />} /> {/* Renders CountReducer at /countreducer */}
+            <Route path='/reducer' element={<Reducer />} /> {/* Renders CountReducer at /reducer */}
             <Route path='/higherorder' element={<HigherOrder />} /> {/* Renders HigherOrder at /higherorder */}
             <Route path='/ref' element={<Ref />} /> {/* Renders Ref at /ref */}
- 
+            <Route path='/slide' element={<Slide />} />
+            
+            {/* Lazy-loaded About route */}
+            <Route
+              path="/about"
+              element={
+                <React.Suspense fallback="Loading...">
+                  <LazyAbout />
+                </React.Suspense>
+              }
+            />
           </Routes>
         </BrowserRouter>
       </UserProvider>
