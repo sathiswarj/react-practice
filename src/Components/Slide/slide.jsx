@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import { IoIosArrowDropleftCircle } from "react-icons/io";
+import SlideHover from './SlideHover';
 
 const Slide = () => {
   const [data, setData] = useState([]);
@@ -56,6 +57,7 @@ const Slide = () => {
   }
 
   return (
+    <>
     <div style={{ textAlign: 'center', padding: '20px' }}>
       <div style={{ position: 'relative', width: '80%', margin: '0 auto' }}>
         
@@ -125,6 +127,8 @@ const Slide = () => {
         )}
       </div>
     </div>
+    <SlideHover />
+    </>
   );
 };
 

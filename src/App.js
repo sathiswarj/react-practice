@@ -11,6 +11,7 @@ import HigherOrder from './Components/Higher order/HigherOrder';
 import Ref from './Components/Function/Ref';
 // import About from './Components/Function/About';
 import Slide from './Components/Slide/slide';
+import PlayVideo from './Components/Slide/PlayVideo';
 
 const LazyAbout = React.lazy(() => import('./Components/Function/About'));
 
@@ -31,7 +32,7 @@ function App() {
             <Route path='/higherorder' element={<HigherOrder />} /> {/* Renders HigherOrder at /higherorder */}
             <Route path='/ref' element={<Ref />} /> {/* Renders Ref at /ref */}
             <Route path='/slide' element={<Slide />} />
-            
+            <Route path='/play/:id' element={<PlayVideo />} />
             {/* Lazy-loaded About route */}
             <Route
               path="/about"
