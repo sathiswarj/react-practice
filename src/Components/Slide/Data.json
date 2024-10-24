@@ -1,0 +1,608 @@
+[
+    {
+        "score": 0.6989529,
+        "show": {
+            "id": 58949,
+            "url": "https://www.tvmaze.com/shows/58949/marvel-zombies",
+            "name": "Marvel Zombies",
+            "type": "Animation",
+            "language": "English",
+            "genres": [
+                "Horror",
+                "Science-Fiction"
+            ],
+            "status": "In Development",
+            "runtime": null,
+            "averageRuntime": null,
+            "premiered": null,
+            "ended": null,
+            "officialSite": null,
+            "schedule": {
+                "time": "",
+                "days": []
+            },
+            "rating": {
+                "average": null
+            },
+            "weight": 97,
+            "network": null,
+            "webChannel": {
+                "id": 287,
+                "name": "Disney+",
+                "country": null,
+                "officialSite": "https://www.disneyplus.com/"
+            },
+            "dvdCountry": null,
+            "externals": {
+                "tvrage": null,
+                "thetvdb": 412428,
+                "imdb": "tt16027014"
+            },
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/374/936989.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/374/936989.jpg"
+            },
+            "video":{
+                "url": "https://www.youtube.com/watch?v=Y5BeWdODPqo"
+            },
+
+            "summary": "<p>The animated series from Marvel Studios reimagines the Marvel Universe as a new generation of heroes battle against an ever-spreading zombie scourge.</p>",
+            "updated": 1723361232,
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/shows/58949"
+                }
+            }
+        }
+    },
+    {
+        "score": 0.69524837,
+        "show": {
+            "id": 43519,
+            "url": "https://www.tvmaze.com/shows/43519/ms-marvel",
+            "name": "Ms. Marvel",
+            "type": "Scripted",
+            "language": "English",
+            "genres": [
+                "Comedy",
+                "Action",
+                "Science-Fiction"
+            ],
+            "status": "Ended",
+            "runtime": null,
+            "averageRuntime": 46,
+            "premiered": "2022-06-08",
+            "ended": "2022-07-13",
+            "officialSite": "https://disneyplus.com/series/ms-marvel/45BsikoMcOOo",
+            "schedule": {
+                "time": "",
+                "days": [
+                    "Wednesday"
+                ]
+            },
+            "rating": {
+                "average": 6.1
+            },
+            "weight": 88,
+            "network": null,
+            "webChannel": {
+                "id": 287,
+                "name": "Disney+",
+                "country": null,
+                "officialSite": "https://www.disneyplus.com/"
+            },
+            "dvdCountry": null,
+            "externals": {
+                "tvrage": null,
+                "thetvdb": 368612,
+                "imdb": "tt10857164"
+            },
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/405/1013952.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/405/1013952.jpg"
+            },
+            "video":{
+                "url": "https://www.youtube.com/watch?v=Po3jStA673E"
+            },
+            "summary": "<p><b>Ms. Marvel </b>introduces viewers to Kamala, a 16-year old Pakistani American from Jersey City.  An aspiring artist, an avid gamer, and a voracious fan-fiction scribe, she is a huge fan of the Avengers — and one in particular, Captain Marvel. But Kamala has always struggled to find her place in the world — that is until she gets super powers like the heroes she's always looked up to.</p>",
+            "updated": 1689473492,
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/shows/43519"
+                },
+                "previousepisode": {
+                    "href": "https://api.tvmaze.com/episodes/2340313",
+                    "name": "No Normal"
+                }
+            }
+        }
+    },
+    {
+        "score": 0.6072012,
+        "show": {
+            "id": 53613,
+            "url": "https://www.tvmaze.com/shows/53613/marvel-studios-assembled",
+            "name": "Marvel Studios: Assembled",
+            "type": "Documentary",
+            "language": "English",
+            "genres": [],
+            "status": "Running",
+            "runtime": null,
+            "averageRuntime": 57,
+            "premiered": "2021-03-12",
+            "ended": null,
+            "officialSite": "https://disneyplus.com/series/marvel-studios-assembled/3RUQKboZV3FF",
+            "schedule": {
+                "time": "",
+                "days": []
+            },
+            "rating": {
+                "average": 8
+            },
+            "weight": 96,
+            "network": null,
+            "webChannel": {
+                "id": 287,
+                "name": "Disney+",
+                "country": null,
+                "officialSite": "https://www.disneyplus.com/"
+            },
+            "dvdCountry": null,
+            "externals": {
+                "tvrage": null,
+                "thetvdb": 396948,
+                "imdb": "tt14094206"
+            },
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/297/742558.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/297/742558.jpg"
+            },
+            "video":{
+                "url": "https://www.youtube.com/watch?v=0E1kVRRi6lk"
+            },
+            "summary": "<p><b>Marvel Studios: Assembled</b> is a comprehensive documentary series streaming on Disney+ that chronicles the creation of Marvel Studios' thrilling new shows and theatrical releases. Journey behind-the-scenes of productions such as <i>WandaVision</i>, <i>The Falcon and the Winter Soldier</i>, and <i>Loki</i> via exclusive on-set footage. <i>Assembled</i> is an immersive, and in-depth examination of the next phase of the Marvel Cinematic Universe.</p>",
+            "updated": 1719263032,
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/shows/53613"
+                },
+                "previousepisode": {
+                    "href": "https://api.tvmaze.com/episodes/2836658",
+                    "name": "The Making of X-Men '97"
+                }
+            }
+        }
+    },
+    {
+        "score": 0.59888065,
+        "show": {
+            "id": 72239,
+            "url": "https://www.tvmaze.com/shows/72239/lego-marvel-avengers",
+            "name": "LEGO Marvel Avengers",
+            "type": "Animation",
+            "language": "English",
+            "genres": [],
+            "status": "Running",
+            "runtime": null,
+            "averageRuntime": 35,
+            "premiered": "2021-11-14",
+            "ended": null,
+            "officialSite": null,
+            "schedule": {
+                "time": "",
+                "days": []
+            },
+            "rating": {
+                "average": null
+            },
+            "weight": 80,
+            "network": null,
+            "webChannel": {
+                "id": 287,
+                "name": "Disney+",
+                "country": null,
+                "officialSite": "https://www.disneyplus.com/"
+            },
+            "dvdCountry": null,
+            "externals": {
+                "tvrage": null,
+                "thetvdb": null,
+                "imdb": null
+            },
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/536/1340546.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/536/1340546.jpg"
+            },
+            "video":{
+                "url": "https://youtu.be/L6DqLW0rv-o?si=kJMC28bNO5OpBMAD"
+            },
+            "summary": "<p>A series of films based on the characters in the <b>Avengers</b> comics. </p>",
+            "updated": 1726787284,
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/shows/72239"
+                },
+                "previousepisode": {
+                    "href": "https://api.tvmaze.com/episodes/3008354",
+                    "name": "LEGO Marvel Avengers: Mission Demolition"
+                }
+            }
+        }
+    },
+    {
+        "score": 0.5976314,
+        "show": {
+            "id": 23312,
+            "url": "https://www.tvmaze.com/shows/23312/marvel-video-comics",
+            "name": "Marvel Video Comics",
+            "type": "Animation",
+            "language": "English",
+            "genres": [
+                "Science-Fiction"
+            ],
+            "status": "Ended",
+            "runtime": 3,
+            "averageRuntime": 3,
+            "premiered": "2016-12-03",
+            "ended": "2016-12-04",
+            "officialSite": "https://news.marvel.com/tv/26943/marvel_video_comics_heading_to_disney_xd_social_channels_this_weekend/",
+            "schedule": {
+                "time": "18:30",
+                "days": [
+                    "Saturday",
+                    "Sunday"
+                ]
+            },
+            "rating": {
+                "average": null
+            },
+            "weight": 77,
+            "network": {
+                "id": 25,
+                "name": "Disney XD",
+                "country": {
+                    "name": "United States",
+                    "code": "US",
+                    "timezone": "America/New_York"
+                },
+                "officialSite": null
+            },
+            "webChannel": null,
+            "dvdCountry": null,
+            "externals": {
+                "tvrage": null,
+                "thetvdb": null,
+                "imdb": null
+            },
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/263/659509.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/263/659509.jpg"
+            },
+            "video":{
+                "url": "https://youtu.be/7YpB7suzrto?si=ys_UYi1hYHHxNYSd"
+            },
+            "summary": "<p>Marvel Publishing and Marvel Animation are bringing 4 video comics, featuring original story and artwork to life, with <b>Marvel Video Comics</b>. Watch your favorite Marvel characters leap off the comic page with \"Marvel Video Comics,\" a new storytelling format that combines comic-style graphic paneling with dialogue, sound, video editing, digital motion effects, and light animation. You can find the four installments, \"Spider-Man &amp; Iron Man In…Training Day – Parts 1-3\" and \"Black Panther In…The Visitor,\".</p>",
+            "updated": 1593718181,
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/shows/23312"
+                },
+                "previousepisode": {
+                    "href": "https://api.tvmaze.com/episodes/1004785",
+                    "name": "Black Panther In…The Visitor"
+                }
+            }
+        }
+    },
+    {
+        "score": 0.58947456,
+        "show": {
+            "id": 37823,
+            "url": "https://www.tvmaze.com/shows/37823/marvel-rising-initiation",
+            "name": "Marvel Rising: Initiation",
+            "type": "Animation",
+            "language": "English",
+            "genres": [
+                "Action",
+                "Science-Fiction"
+            ],
+            "status": "Ended",
+            "runtime": null,
+            "averageRuntime": 4,
+            "premiered": "2018-08-13",
+            "ended": "2019-12-18",
+            "officialSite": null,
+            "schedule": {
+                "time": "19:30",
+                "days": [
+                    "Monday"
+                ]
+            },
+            "rating": {
+                "average": 7.6
+            },
+            "weight": 65,
+            "network": {
+                "id": 25,
+                "name": "Disney XD",
+                "country": {
+                    "name": "United States",
+                    "code": "US",
+                    "timezone": "America/New_York"
+                },
+                "officialSite": null
+            },
+            "webChannel": null,
+            "dvdCountry": null,
+            "externals": {
+                "tvrage": null,
+                "thetvdb": 350537,
+                "imdb": "tt9073722"
+            },
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/162/405053.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/162/405053.jpg"
+            },
+            "video":{
+                "url": "https://www.youtube.com/watch?v=dz458ZkBMak&t=8256s"
+            },
+            "summary": "<p><b>Marvel Rising: Initiation</b> centers on teenage superhero Ghost-Spider, who is on the run from the law after being framed for her friend's murder. Ms. Marvel, Squirrel Girl, Quake, and Patriot are dispatched to bring her in, before they all find themselves teaming up to fight a threat no one had expected.</p>",
+            "updated": 1662299236,
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/shows/37823"
+                },
+                "previousepisode": {
+                    "href": "https://api.tvmaze.com/episodes/1771721",
+                    "name": "Marvel Rising: Playing with Fire"
+                }
+            }
+        }
+    },
+    {
+        "score": 0.5706533,
+        "show": {
+            "id": 25811,
+            "url": "https://www.tvmaze.com/shows/25811/marvel-future-avengers",
+            "name": "Marvel Future Avengers",
+            "type": "Animation",
+            "language": "Japanese",
+            "genres": [
+                "Action",
+                "Anime",
+                "Children",
+                "Science-Fiction"
+            ],
+            "status": "Ended",
+            "runtime": 22,
+            "averageRuntime": 22,
+            "premiered": "2017-07-22",
+            "ended": "2018-10-22",
+            "officialSite": null,
+            "schedule": {
+                "time": "18:00",
+                "days": [
+                    "Monday"
+                ]
+            },
+            "rating": {
+                "average": 6.7
+            },
+            "weight": 46,
+            "network": {
+                "id": 1363,
+                "name": "Dlife",
+                "country": {
+                    "name": "Japan",
+                    "code": "JP",
+                    "timezone": "Asia/Tokyo"
+                },
+                "officialSite": null
+            },
+            "webChannel": null,
+            "dvdCountry": null,
+            "externals": {
+                "tvrage": null,
+                "thetvdb": 330094,
+                "imdb": "tt6591446"
+            },
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/116/292118.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/116/292118.jpg"
+            },
+            "video":{
+                "url": "https://www.youtube.com/watch?v=dz458ZkBMak&t=8256s"
+            },
+            "summary": "<p><b>Marvel Future Avengers </b>is an anime series that follows Makoto, a young boy who gains superpowers due to an evil gene manipulation experiment. Makoto and other youths join the Avengers as apprentices named \"Future Avengers.\" The anime will show Makoto and others as they train, fight villains and grow, under Avengers members Iron Man, Captain America, Hulk, Thor, and Wasp.</p>",
+            "updated": 1722775700,
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/shows/25811"
+                },
+                "previousepisode": {
+                    "href": "https://api.tvmaze.com/episodes/1524397",
+                    "name": "The Avengers: Last Stand"
+                }
+            }
+        }
+    },
+    {
+        "score": 0.5699208,
+        "show": {
+            "id": 66727,
+            "url": "https://www.tvmaze.com/shows/66727/icons-unearthed-marvel",
+            "name": "Icons Unearthed: Marvel",
+            "type": "Documentary",
+            "language": "English",
+            "genres": [],
+            "status": "Ended",
+            "runtime": 60,
+            "averageRuntime": 60,
+            "premiered": "2023-03-07",
+            "ended": "2023-04-25",
+            "officialSite": "https://www.vicetv.com/en_us/show/icons-unearthed-marvel",
+            "schedule": {
+                "time": "21:00",
+                "days": [
+                    "Tuesday"
+                ]
+            },
+            "rating": {
+                "average": null
+            },
+            "weight": 45,
+            "network": {
+                "id": 1006,
+                "name": "Vice TV",
+                "country": {
+                    "name": "United States",
+                    "code": "US",
+                    "timezone": "America/New_York"
+                },
+                "officialSite": null
+            },
+            "webChannel": null,
+            "dvdCountry": null,
+            "externals": {
+                "tvrage": null,
+                "thetvdb": null,
+                "imdb": null
+            },
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/448/1121548.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/448/1121548.jpg"
+            },
+            "video":{
+                "url": "https://www.youtube.com/watch?v=dz458ZkBMak&t=8256s"
+            },
+            "summary": "<p>Cast, crew, and experts will reveal never-before-heard stories about the most iconic film and television series.</p>",
+            "updated": 1694018792,
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/shows/66727"
+                },
+                "previousepisode": {
+                    "href": "https://api.tvmaze.com/episodes/2524279",
+                    "name": "Creative Differences"
+                }
+            }
+        }
+    },
+    {
+        "score": 0.5687988,
+        "show": {
+            "id": 23699,
+            "url": "https://www.tvmaze.com/shows/23699/marvel-funko-shorts",
+            "name": "Marvel Funko Shorts",
+            "type": "Animation",
+            "language": "English",
+            "genres": [
+                "Children",
+                "Science-Fiction"
+            ],
+            "status": "Ended",
+            "runtime": 1,
+            "averageRuntime": 1,
+            "premiered": "2016-11-30",
+            "ended": "2018-07-31",
+            "officialSite": "https://www.youtube.com/playlist?list=PLK5HARgNfgj83SwAMvyzYJ4868NZT9I58",
+            "schedule": {
+                "time": "",
+                "days": []
+            },
+            "rating": {
+                "average": null
+            },
+            "weight": 44,
+            "network": null,
+            "webChannel": {
+                "id": 21,
+                "name": "YouTube",
+                "country": null,
+                "officialSite": "https://www.youtube.com"
+            },
+            "dvdCountry": null,
+            "externals": {
+                "tvrage": null,
+                "thetvdb": 320673,
+                "imdb": null
+            },
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/89/222590.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/89/222590.jpg"
+            },
+            "video":{
+                "url": "https://www.youtube.com/watch?v=dz458ZkBMak&t=8256s"
+            },
+            "summary": "<p>Marvel and Funko have collaborated to create the first-ever Funko animated shorts, which are just so charming, cute and fun that you'll want to watch them over and over again. Each of the three shorts – Spellbound, Bait N Switch and Chimichangas and feature some of Marvel's most popular superheroes and villains, including Spider-Man, Iron Man, Loki, Rocket, Groot, the Collector, Deadpool and Venom.</p>",
+            "updated": 1653334927,
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/shows/23699"
+                },
+                "previousepisode": {
+                    "href": "https://api.tvmaze.com/episodes/1513747",
+                    "name": "Magnet Mayhem"
+                }
+            }
+        }
+    },
+    {
+        "score": 0.5508068,
+        "show": {
+            "id": 64044,
+            "url": "https://www.tvmaze.com/shows/64044/marvel-studios-special-presentation",
+            "name": "Marvel Studios' Special Presentation",
+            "type": "Scripted",
+            "language": "English",
+            "genres": [
+                "Science-Fiction"
+            ],
+            "status": "Running",
+            "runtime": null,
+            "averageRuntime": 48,
+            "premiered": "2022-10-07",
+            "ended": null,
+            "officialSite": null,
+            "schedule": {
+                "time": "",
+                "days": []
+            },
+            "rating": {
+                "average": 7.6
+            },
+            "weight": 93,
+            "network": null,
+            "webChannel": {
+                "id": 287,
+                "name": "Disney+",
+                "country": null,
+                "officialSite": "https://www.disneyplus.com/"
+            },
+            "dvdCountry": null,
+            "externals": {
+                "tvrage": null,
+                "thetvdb": null,
+                "imdb": null
+            },
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/426/1067085.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/426/1067085.jpg"
+            },
+            "video":{
+                "url": "https://www.youtube.com/watch?v=dz458ZkBMak&t=8256s"
+            },
+            "summary": "<p>A series of special one offs from Marvel Studios. </p>",
+            "updated": 1670042253,
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/shows/64044"
+                },
+                "previousepisode": {
+                    "href": "https://api.tvmaze.com/episodes/2420320",
+                    "name": "Marvel Studios' Special Presentation: The Guardians of the Galaxy Holiday Special"
+                }
+            }
+        }
+    }
+]

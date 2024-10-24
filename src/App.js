@@ -32,7 +32,7 @@ function App() {
             <Route path='/higherorder' element={<HigherOrder />} /> {/* Renders HigherOrder at /higherorder */}
             <Route path='/ref' element={<Ref />} /> {/* Renders Ref at /ref */}
             <Route path='/slide' element={<Slide />} />
-            <Route path='/play/:id' element={<PlayVideo />} />
+            <Route path="/play/:id" element={<PlayVideo />} />
             {/* Lazy-loaded About route */}
             <Route
               path="/about"
