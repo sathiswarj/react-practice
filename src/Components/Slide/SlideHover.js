@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import './Slide.css';
 import Data from './Data.json';
 import PlayVideo from './PlayVideo';
+import WatchList from './WatchList';
 
 const SlideHover = () => {
     const [data, setData] = useState([]);
@@ -14,10 +15,11 @@ const SlideHover = () => {
     const [disableNext, setDisableNext] = useState(false);
     const [hovered, setHovered] = useState(null);
     const [selectedVideo, setSelectedVideo] = useState(null); 
+    const [watchList, setWatchList] = useState([]);
     const itemsPerPage = 4;
     const navigate = useNavigate();
 
-    const fetchData = () => {
+    useEffect(() => {
         try {
             setData(Data);
         } catch (err) {
@@ -25,10 +27,6 @@ const SlideHover = () => {
         } finally {
             setLoading(false);
         }
-    };
-
-    useEffect(() => {
-        fetchData();
     }, []);
 
     useEffect(() => {
@@ -51,20 +49,29 @@ const SlideHover = () => {
     const handleVideoPlayer = (id) => {
         const selectedShow = data.find(item => item.show.id === id); 
         if (selectedShow) {
-            const videoId = selectedShow.show.video.url.split('v=')[1].split('&')[0]; 
-            const embedUrl = `https://www.youtube.com/embed/${videoId}`; 
-            navigate(`/play/${id}`, { state: { videoUrl: embedUrl, showData: selectedShow } });  
+            const videoId = selectedShow.show.video.url.split('v=')[1].split('&')[0];
+            const embedUrl = `https://www.youtube.com/embed/${videoId}`;
+            navigate(`/play/${id}`, { state: { videoUrl: embedUrl, showData: selectedShow } });
         }
     };
-    
 
-    if (loading) {
-        return <p>Loading...</p>;
-    }
+    const addWatchlist = (id) => {
+        setWatchList((prevWatchList) => {
+            if (!prevWatchList.includes(id)) {
+                console.log(`Added to watchlist: ${id}`);
+                return [...prevWatchList, id];
+                
+            } if(prevWatchList) {
+                alert('Added in watch list');
+            }else {
+                alert('Already stored in watch list');
+                return prevWatchList;
+            }
+        });
+    };
 
-    if (error) {
-        return <p>Error: {error}</p>;
-    }
+    if (loading) return <p>Loading...</p>;
+    if (error) return <p>Error: {error}</p>;
 
     return (
         <>
@@ -77,6 +84,9 @@ const SlideHover = () => {
                                 position: 'absolute',
                                 top: '40%',
                                 left: '0',
+                                color: 'black',
+                                background: 'black',
+                                borderRadius: '20px',
                                 fontSize: 39,
                                 transform: 'translateY(-50%)',
                                 zIndex: 1,
@@ -99,6 +109,7 @@ const SlideHover = () => {
                                     style={{
                                         flex: `0 0 ${100 / itemsPerPage}%`,
                                         boxSizing: 'border-box',
+                                        color: 'black',
                                         padding: '10px',
                                         textAlign: 'center',
                                         position: 'relative',
@@ -123,9 +134,9 @@ const SlideHover = () => {
                                             />
                                             <div style={{ display: 'flex', justifyContent: 'space-around', marginTop: '10px' }}>
                                                 <button className="btn-section" style={{ marginRight: "25px" }} onClick={() => handleVideoPlayer(item.show.id)}>Play now</button>
-                                                <button className="btn-section">+</button>
+                                                <button className="btn-section" onClick={() => addWatchlist(item.show.id)}>+</button>
                                             </div>
-                                            <p> {item.show.genres[0]} </p>
+                                            <p>{item.show.genres[0]}</p>
                                             <p className="summary" style={{ fontSize: '12px' }}>
                                                 {item.show.summary.replace(/<\/?[^>]+(>|$)/g, '').length > 100
                                                     ? `${item.show.summary.replace(/<\/?[^>]+(>|$)/g, '').slice(0, 100)}...`
@@ -145,8 +156,11 @@ const SlideHover = () => {
                             style={{
                                 position: 'absolute',
                                 top: '40%',
+                                color: 'black',
+                                background: 'black',
                                 right: '0',
                                 transform: 'translateY(-50%)',
+                                borderRadius: '20px',
                                 zIndex: 1,
                                 fontSize: 39,
                                 cursor: 'pointer',
@@ -155,8 +169,9 @@ const SlideHover = () => {
                     )}
                 </div>
             </div>
-            {selectedVideo && (
-                <PlayVideo data={data} />
+            {selectedVideo && <PlayVideo data={data} />}
+            {watchList.length > 0 && (
+                <WatchList watchList={data.filter(item => watchList.includes(item.show.id))} />
             )}
         </>
     );

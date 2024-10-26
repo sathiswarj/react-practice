@@ -12,6 +12,7 @@ import Ref from './Components/Function/Ref';
 // import About from './Components/Function/About';
 import Slide from './Components/Slide/slide';
 import PlayVideo from './Components/Slide/PlayVideo';
+import WatchList from './Components/Slide/WatchList';
 
 const LazyAbout = React.lazy(() => import('./Components/Function/About'));
 
@@ -33,6 +34,7 @@ function App() {
             <Route path='/ref' element={<Ref />} /> {/* Renders Ref at /ref */}
             <Route path='/slide' element={<Slide />} />
             <Route path="/play/:id" element={<PlayVideo />} />
+            <Route path="/watchlist" element={<WatchList />} />
             {/* Lazy-loaded About route */}
             <Route
               path="/about"
