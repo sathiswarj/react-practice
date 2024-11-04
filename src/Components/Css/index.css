@@ -1,0 +1,91 @@
+.p-1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+    padding: 15px;
+    /* background-image: url('https://mcdn.wallpapersafari.com/small/96/41/cImN3sP.webp'); */
+    background-image: url('https://mcdn.wallpapersafari.com/small/92/97/U0m45ZE.webp');
+    background-clip: text;
+    /*This setting clips the background image so it appears only within the shape of the text, rather than filling the entire background of the element. */
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.p-2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 5em;
+    padding: 15px;
+    text-align: center;
+    background-image: url("https://media4.giphy.com/media/l41m3TD0Z8yk1wafC/200.webp?cid=ecf05e475w35bvexxf8k0pvqazbrrncobjzvr3t20ed63j2s&ep=v1_gifs_search&rid=200.webp&ct=g");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.p-3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 5em;
+    padding: 15px;
+    text-align: center;
+    background-image: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+.p-6 {
+    font-family: 'Raleway', sans-serif;
+    background-clip: border-box;
+    /*   border-box: The border-box property is used to set the background color spread over the whole division. */
+    border: 4px dashed #999;
+    padding: 45px;
+    background-color: cadetblue;
+}
+
+.p-7 {
+    font-family: 'Raleway', sans-serif;
+    background-clip: padding-box;
+    /* padding-box: The padding-box property is used to set the background inside the border. */
+    border: 4px dashed #999;
+    padding: 15px;
+    background-color: cadetblue;
+}
+
+.p-8 {
+    font-family: 'Raleway', sans-serif;
+    background-clip: content-box;
+    /* The content-box property is used to set the background color up to the content only. */
+    border: 4px dashed #999;
+    padding: 85px;
+    background-color: cadetblue;
+}
+
+
+/* Background image */
+
+.p-4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 5em;
+    padding: 15px;
+    text-align: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR23hVJDRwORZETPdBEX3aXkWXKwAW2wmWDlg&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+    background-position: center;
+    color: white;
+}
+
+/* HEX, RGB, RGBA, HSL and HSLA values */
+
+.p-5 {
+    padding: 15px;
+    font-size: 2em;
+    background-color: hsl(89, 43%, 51%);
+}
