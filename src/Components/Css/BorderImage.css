@@ -1,0 +1,30 @@
+.border-one{
+    width: 300px;
+    height: 300px;
+    border: 15px dashed transparent;
+    line-height: 45px;
+    padding: 25px; 
+    border-image: url("https://mcdn.wallpapersafari.com/small/92/97/U0m45ZE.webp") 30 repeat;  
+    /* border-image: source slice width outset repeat | stretch | round */
+}
+
+.border-two{
+    width: 300px;
+    height: 300px;
+    border: 15px solid black;
+    line-height: 30px;
+    padding: 25px;
+    border-image-source: url("https://mcdn.wallpapersafari.com/small/92/97/U0m45ZE.webp");
+    border-image-width: 15px;
+    border-image-slice: 30;
+    border-image-outset: 30px;
+    border-image-repeat: repeat;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.border-three{
+    width: 300px;
+    height: 300px;
+    border: 15px dashed transparent;
+}

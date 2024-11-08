@@ -15,6 +15,8 @@ import PlayVideo from './Components/Slide/PlayVideo';
 import WatchList from './Components/Slide/WatchList';
 import Index from './Components/Css/Index';
 import Border from './Components/Css/Border';
+import BorderImage from './Components/Css/BorderImage';
+import BorderTop from './Components/Css/BorderTop';
 const LazyAbout = React.lazy(() => import('./Components/Function/About'));
 
 function App() {
@@ -38,6 +40,9 @@ function App() {
             <Route path="/watchlist" element={<WatchList />} />
             <Route path="/index" element={<Index />} />
             <Route path="/border" element={<Border />} />
+            <Route path="/borderimage" element={<BorderImage />} />
+            <Route path="/bordertop" element={<BorderTop />} />
+
             {/* Lazy-loaded About route */}
             <Route
               path="/about"
