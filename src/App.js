@@ -13,10 +13,16 @@ import Ref from './Components/Function/Ref';
 import Slide from './Components/Slide/slide';
 import PlayVideo from './Components/Slide/PlayVideo';
 import WatchList from './Components/Slide/WatchList';
-import Index from './Components/Css/Index';
-import Border from './Components/Css/Border';
-import BorderImage from './Components/Css/BorderImage';
-import BorderTop from './Components/Css/BorderTop';
+import Index from './Components/Css/Border/Index';
+import Border from './Components/Css/Border/Border';
+import BorderImage from './Components/Css/Border/BorderImage';
+import BorderTop from './Components/Css/Border/BorderTop';
+import Card from './Components/Css/Card';
+import Transition from './Components/Css/Transition/Transition';
+import Transform from './Components/Css/Transform/Index'
+import Test from './Components/Css/Transform/Test';
+import Tests from './Components/Css/Transform/Tests';
+
 const LazyAbout = React.lazy(() => import('./Components/Function/About'));
 
 function App() {
@@ -42,7 +48,11 @@ function App() {
             <Route path="/border" element={<Border />} />
             <Route path="/borderimage" element={<BorderImage />} />
             <Route path="/bordertop" element={<BorderTop />} />
-
+            <Route path="/card" element={<Card />} />
+            <Route path="/transition" element={<Transition />} />
+            <Route path="/transform" element={<Transform />} />
+            <Route path="/test" element={<Test />} />
+            <Route path="/tests" element={<Tests />} />
             {/* Lazy-loaded About route */}
             <Route
               path="/about"

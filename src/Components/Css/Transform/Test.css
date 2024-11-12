@@ -1,0 +1,173 @@
+/* Skew  */
+
+.transform-t-skew {
+    height: 50px;
+    width: 50px;
+    /* transform: skew(20deg,30deg); X-axis,Y-axis */
+    transform: skewX(20deg);
+}
+
+/* Transform */
+
+.transform-t-2 {
+    margin-top: 400px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    background: red;
+    transition: 1s;
+    animation: 5s box linear infinite;
+}
+
+/* .transform-t-2:hover{
+    transition: 1s;
+    transform: rotate(360deg);
+    transform: scaleX(2);
+} */
+
+@keyframes box {
+    /* from {
+        transform: translateX(500px) rotateZ(360deg) skew(50deg);
+    }
+    to {
+        transform: translateX(-500px) ;
+    } */
+
+    25% {
+        transform: translateX(300px);
+    }
+
+    50% {
+        transform: translateY(300px);
+    }
+
+    75% {
+        transform: translateX(-300px);
+    }
+
+    100% {
+        transform: translateY(-300px);
+    }
+}
+
+
+.transform-t-4 {
+    margin-top: 100px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    background: red;
+    transition: 1s;
+    transform-origin: bottom;
+}
+
+
+
+.transform-t-4:hover {
+    transition: 1s;
+    transform: perspective(1000px) rotateX(180deg);
+    /* transform: scaleX(2); */
+}
+
+.transform-origin-1 {
+    margin-top: 100px;
+    height: 100px;
+    width: 100px;
+}
+
+.transform-t-5 {
+    display: flex;
+    align-items: center;
+    transform: translateX(100px);
+}
+
+img {
+    animation: 2s bulb linear infinite alternate;
+    transform-origin: top;
+}
+
+@keyframes bulb {
+    from {
+        transform: rotateZ(-30deg);
+    }
+
+    to {
+        transform: rotateZ(30deg);
+    }
+}
+
+
+.transform-t-7 {
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    background: red;
+    transition: 1s;
+    animation: 5s draws linear infinite;
+}
+
+/* @keyframes draw{
+     0% {
+        transform: translateX(0px) rotateZ(360deg);
+    }
+    50% {
+        transform: translateX(1000px) ;
+    }  
+} */
+
+@keyframes draws {
+    0% {
+        transform: translateX(0px) rotateZ(-360deg);
+        border-radius: 25px;
+    }
+
+    25% {
+        transform: translateX(1000px);
+        border-radius: 55px;
+    }
+
+    50% {
+        transform: translateX(1000px);
+        border-radius: 75px;
+    }
+}
+
+
+.transform-origin-2 {
+    margin-right: 200px;
+}
+
+.transform-t-8 {
+    margin-top: 50px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    background: red;
+    transition: 1s;
+    animation: 5s draw linear infinite;
+
+}
+
+
+@keyframes draw {
+    0% {
+        transform: translateX(0px) rotateZ(360deg);
+    }
+
+    50% {
+        transform: translateX(1000px);
+    }
+}
+
+.transform-origin-4{
+    margin-top: 50px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    background: red;
+}
+
+.transform-origin-4:hover{
+    transform: scale(2);
+}

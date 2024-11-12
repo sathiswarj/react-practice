@@ -1,0 +1,55 @@
+.transform-1 {
+    margin: 50px;
+    width: 50px;
+    /* height: 103px; */
+    /* transform: translate(200px, 50px); */        /* Moves the element by the given amount along the Horizontal X and Vertical Y-axis.*/ 
+  /*   transform:  rotate(0.5turn); */              /* Rotates the element by the specified angle around the origin of the element, as defined by the transform-origin property. */ 
+    /* transform: rotate3d(1, 2, 3, 10deg); */       /*Rotates the element in 3D space by the angle specified in the last parameter, around the [x,y,z] direction vector.*/ 
+    /* transform: rotateX(50deg); */            	 /*Rotates the Horizontal element by the given angle around the X-axis.*/ 
+   /*  transform: rotateY(50deg) */                  /*Rotates the Vertical element by the given angle around the Y-axis.*/ 
+   /* transform: rotateZ(50deg); */	                 /*Rotates the element by the given angle around the Z-axis.*/ 
+   /* transform: translate(12px, 50%); */
+   /* transform: translateX(82em); */                /*	Moves the element by the given amount along the X-axis.*/ 
+   /* transform: translateY(82em); */                   /* Moves the element by the given amount along the Y-axis.*/ 
+   /* transform: translateZ(82em); */                  /* 	Moves the element by the given amount along the Z-axis.*/
+ 
+   /* transform: skew(30deg, 20deg); */               /*   Skews the element by the given angle along the X and Y-axis.*/ 
+   /* transform: skewX(30deg); */                     /*   Skews the element by the given angle along the Horizontal X-axis.*/ 
+/* transform: skewY(30deg); */                      /*   Skews the element by the given angle along the Vertical Y-axis.*/ 
+
+/* Multiple values */
+
+
+/* transform: translateX(10px) rotate(10deg) translateY(5px);
+transform: perspective(500px) translate3d(10px, 0, 20px) rotateY(30deg); */
+}
+/* 2D animation */
+/* .transform-1:hover{
+    transition: 1s;
+    transform:  rotate(2turn);
+}
+  */
+
+  
+ 
+.transform-1:hover{
+    transition: 1s;
+    transform:  perspective(1000px) scaleZ(1.5) rotateX(45deg) rotateY(-5deg)  ;
+}
+ 
+
+.transform-2 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+      transform: scale(2);               /*  Scale the width and height of the element up or down by the given amount. grow and string,  The function scale(1,1) has no effect. */  
+    /* transform: scale3d(2.5, 1.2, 0.3); */           /*   Scales the element by the given amount along the X, Y and Z-axis. The function scale3d(1,1,1) has no effect.*/ 
+    /* transform: scaleX(2);   */                         /*   Scales the width element along the X-axis.*/ 
+    /*   transform: scaleY(0.5);   */                           /*   Scales the  height element along the Y-axis.*/ 
+     /*  transform: scaleZ(0.3); */                         /*   Scales the element along the Z-axis.*/ 
+  }
+
+  .transform-2:hover{
+    transition: 1s;
+    transform: scaleY(0.5); 
+  }
