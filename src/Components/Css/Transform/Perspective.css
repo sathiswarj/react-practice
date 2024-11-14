@@ -1,0 +1,40 @@
+.wrap{
+    margin: 20px auto;
+    border-bottom: solid 1px #ccc;
+    width: 90%;
+    text-align: center;
+}
+
+.origin{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 10px 15px 20px 15px;
+    border: 1px #aaa solid;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,.5);
+    perspective: 200px;
+}
+.box{
+    background-color: rgba(0,221,244,.6);
+    border: 1px #3cf solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    text-align: center;
+    transform: rotateX(-45deg);
+}
+
+.b1{
+    perspective-origin: bottom left;
+}
+
+.b2{
+    perspective-origin: 75% 75%;
+}
+
+.b3{
+    perspective-origin: 30px 40px;
+}

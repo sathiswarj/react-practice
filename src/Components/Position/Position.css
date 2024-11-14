@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    border:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.5rem;
+    min-height: 200vh;
+}
+
+.outer-container{
+    border: 3px dashed black;
+    width: 75vw;
+    height: 85vh;
+    margin: 40px auto;
+    /* position: relative; */
+}
+
+
+
+.inner-container{
+    border: 2px solid blue;
+    width: 40vw;
+    height: 50vh;
+    margin: 200px auto;
+    /* position: relative; */
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    color: white;
+    padding:1 rem;
+}
+
+.absolute{
+    background: blue;
+    /* position: static; default */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/* Absolute - Absolute normal a implement panna adhu web page refer a eduthutu move aagum. so position: relative nu oru class la podrapo adha reference a eduthutu move aagum */
+/* .relative refer the immediate parent class */
+
+.relative{
+    background: red;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+/* Fixed only refer the webpage.  */
+/* And there is a only problem is it will fixed the sizes to web page so if i scroll down the page it will fixed in the size */
+.fixed{
+    background: green;
+    /* position: static; default */
+    position: fixed;
+    top: 100px;
+    left: 200px;
+}
+
+/* sticky refer the parent class*/
+/* If scroll the page then sticky container should display after crossed the parent class then it will stayed in that */
+.sticky{
+    background: black;
+    position: sticky;
+    top: 300px;
+}

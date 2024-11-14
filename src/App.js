@@ -22,7 +22,8 @@ import Transition from './Components/Css/Transition/Transition';
 import Transform from './Components/Css/Transform/Index'
 import Test from './Components/Css/Transform/Test';
 import Tests from './Components/Css/Transform/Tests';
-
+import Position from './Components/Position/Position';
+import Perspective from './Components/Css/Transform/Perspective '
 const LazyAbout = React.lazy(() => import('./Components/Function/About'));
 
 function App() {
@@ -53,6 +54,8 @@ function App() {
             <Route path="/transform" element={<Transform />} />
             <Route path="/test" element={<Test />} />
             <Route path="/tests" element={<Tests />} />
+            <Route path="/position" element={<Position />} />
+            <Route path="/perspective" element={<Perspective />} />
             {/* Lazy-loaded About route */}
             <Route
               path="/about"
